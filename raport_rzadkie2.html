@@ -1,0 +1,2467 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+</head>
+<body class="body">
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Wykres: udział 1 w rzadkich zmiennych binarnych (train)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table cellspacing="0" cellpadding="0" summary="Page Layout">
+<tr><td>
+<pre class="batch"><h3><a href="raport_ogolny.html" target="_blank">Powrót do raportu głównego</a></h3>                                                
+</pre></td></tr>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX1"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">Rzadkie zmienne binarne (udział 1 &lt; 5%)</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Zbiór WORK.MEAN_LINK">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">link</th>
+<th class="r header" scope="col">Udział 1 w zbiorze<br/>treningowym</th>
+<th class="r header" scope="col">Udział 1 w zbiorze<br/>walidacyjnym</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data"><a href="ags21_Min_CMin_Due.html">ags21_Min_CMin_Due</a></td>
+<td class="r data">0.000246</td>
+<td class="r data">0.000264</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data"><a href="ags9_Iqr_Cncr.html">ags9_Iqr_Cncr</a></td>
+<td class="r data">0.000249</td>
+<td class="r data">0.000292</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data"><a href="ags9_Range_Cncr.html">ags9_Range_Cncr</a></td>
+<td class="r data">0.000249</td>
+<td class="r data">0.000292</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data"><a href="ags36_Min_CMax_Due.html">ags36_Min_CMax_Due</a></td>
+<td class="r data">0.000265</td>
+<td class="r data">0.000132</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data"><a href="ags6_Range_Cncr.html">ags6_Range_Cncr</a></td>
+<td class="r data">0.000304</td>
+<td class="r data">0.000122</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data"><a href="ags6_Iqr_Cncr.html">ags6_Iqr_Cncr</a></td>
+<td class="r data">0.000304</td>
+<td class="r data">0.000122</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data"><a href="ags33_Min_CMax_Due.html">ags33_Min_CMax_Due</a></td>
+<td class="r data">0.000360</td>
+<td class="r data">0.000170</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data"><a href="ags30_Min_CMax_Due.html">ags30_Min_CMax_Due</a></td>
+<td class="r data">0.000397</td>
+<td class="r data">0.000264</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data"><a href="ags12_Range_Cncr.html">ags12_Range_Cncr</a></td>
+<td class="r data">0.000420</td>
+<td class="r data">0.000516</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data"><a href="ags12_Iqr_Cncr.html">ags12_Iqr_Cncr</a></td>
+<td class="r data">0.000420</td>
+<td class="r data">0.000516</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data"><a href="ags15_Range_Cncr.html">ags15_Range_Cncr</a></td>
+<td class="r data">0.000430</td>
+<td class="r data">0.000618</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data"><a href="ags15_Iqr_Cncr.html">ags15_Iqr_Cncr</a></td>
+<td class="r data">0.000430</td>
+<td class="r data">0.000605</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data"><a href="ags27_Min_CMax_Due.html">ags27_Min_CMax_Due</a></td>
+<td class="r data">0.000492</td>
+<td class="r data">0.000396</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data"><a href="ags18_Iqr_Cncr.html">ags18_Iqr_Cncr</a></td>
+<td class="r data">0.000655</td>
+<td class="r data">0.000723</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data"><a href="ags18_Range_Cncr.html">ags18_Range_Cncr</a></td>
+<td class="r data">0.000655</td>
+<td class="r data">0.000747</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data"><a href="ags24_Min_CMax_Due.html">ags24_Min_CMax_Due</a></td>
+<td class="r data">0.000681</td>
+<td class="r data">0.000641</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data"><a href="ags21_Range_Cncr.html">ags21_Range_Cncr</a></td>
+<td class="r data">0.000734</td>
+<td class="r data">0.000795</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data"><a href="ags24_Range_Cncr.html">ags24_Range_Cncr</a></td>
+<td class="r data">0.000884</td>
+<td class="r data">0.000937</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data"><a href="agr24_Pctl5_CMin_Due.html">agr24_Pctl5_CMin_Due</a></td>
+<td class="r data">0.000953</td>
+<td class="r data">0.000939</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data"><a href="ags27_Range_Cncr.html">ags27_Range_Cncr</a></td>
+<td class="r data">0.001098</td>
+<td class="r data">0.001018</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data"><a href="ags18_Min_CMin_Due.html">ags18_Min_CMin_Due</a></td>
+<td class="r data">0.001098</td>
+<td class="r data">0.000999</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data"><a href="ags18_Pctl5_CMin_Due.html">ags18_Pctl5_CMin_Due</a></td>
+<td class="r data">0.001098</td>
+<td class="r data">0.000999</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data"><a href="agr30_Pctl5_CMin_Due.html">agr30_Pctl5_CMin_Due</a></td>
+<td class="r data">0.001258</td>
+<td class="r data">0.000000</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data"><a href="ags21_Min_CMax_Due.html">ags21_Min_CMax_Due</a></td>
+<td class="r data">0.001344</td>
+<td class="r data">0.001526</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data"><a href="ags30_Range_Cncr.html">ags30_Range_Cncr</a></td>
+<td class="r data">0.001344</td>
+<td class="r data">0.001338</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data"><a href="act15_Ciev_health.html">act15_Ciev_health</a></td>
+<td class="r data">0.001400</td>
+<td class="r data">0.001262</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data"><a href="agr21_Min_CMin_Due.html">agr21_Min_CMin_Due</a></td>
+<td class="r data">0.001475</td>
+<td class="r data">0.001559</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data"><a href="act18_Ciev_health.html">act18_Ciev_health</a></td>
+<td class="r data">0.001514</td>
+<td class="r data">0.001187</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data"><a href="ags33_Range_Cncr.html">ags33_Range_Cncr</a></td>
+<td class="r data">0.001552</td>
+<td class="r data">0.001658</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data"><a href="act21_Ciev_health.html">act21_Ciev_health</a></td>
+<td class="r data">0.001571</td>
+<td class="r data">0.001432</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data"><a href="agr27_Pctl5_CMin_Due.html">agr27_Pctl5_CMin_Due</a></td>
+<td class="r data">0.001574</td>
+<td class="r data">0.000000</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data"><a href="act12_Ciev_health.html">act12_Ciev_health</a></td>
+<td class="r data">0.001703</td>
+<td class="r data">0.001526</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data"><a href="act24_Ciev_health.html">act24_Ciev_health</a></td>
+<td class="r data">0.001798</td>
+<td class="r data">0.001677</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data"><a href="ags36_Range_Cncr.html">ags36_Range_Cncr</a></td>
+<td class="r data">0.001930</td>
+<td class="r data">0.002016</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data"><a href="act27_Ciev_health.html">act27_Ciev_health</a></td>
+<td class="r data">0.001930</td>
+<td class="r data">0.002092</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data"><a href="act30_Ciev_health.html">act30_Ciev_health</a></td>
+<td class="r data">0.002290</td>
+<td class="r data">0.002412</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data"><a href="act21_Ciev_work.html">act21_Ciev_work</a></td>
+<td class="r data">0.002403</td>
+<td class="r data">0.002525</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data"><a href="act24_Ciev_work.html">act24_Ciev_work</a></td>
+<td class="r data">0.002479</td>
+<td class="r data">0.002355</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data"><a href="act33_Ciev_health.html">act33_Ciev_health</a></td>
+<td class="r data">0.002498</td>
+<td class="r data">0.002676</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data"><a href="act27_Ciev_work.html">act27_Ciev_work</a></td>
+<td class="r data">0.002725</td>
+<td class="r data">0.002657</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data"><a href="act30_Ciev_work.html">act30_Ciev_work</a></td>
+<td class="r data">0.002801</td>
+<td class="r data">0.003053</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data"><a href="act27_Ciev_home.html">act27_Ciev_home</a></td>
+<td class="r data">0.002877</td>
+<td class="r data">0.002826</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data"><a href="act36_Ciev_health.html">act36_Ciev_health</a></td>
+<td class="r data">0.002914</td>
+<td class="r data">0.003071</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data"><a href="act30_Ciev_home.html">act30_Ciev_home</a></td>
+<td class="r data">0.002971</td>
+<td class="r data">0.003109</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data"><a href="act18_Ciev_work.html">act18_Ciev_work</a></td>
+<td class="r data">0.002990</td>
+<td class="r data">0.002883</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data"><a href="act33_Ciev_work.html">act33_Ciev_work</a></td>
+<td class="r data">0.003160</td>
+<td class="r data">0.002902</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data"><a href="act27_Ciev_family.html">act27_Ciev_family</a></td>
+<td class="r data">0.003160</td>
+<td class="r data">0.002676</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data"><a href="act33_Ciev_home.html">act33_Ciev_home</a></td>
+<td class="r data">0.003198</td>
+<td class="r data">0.003542</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data"><a href="act24_Ciev_family.html">act24_Ciev_family</a></td>
+<td class="r data">0.003236</td>
+<td class="r data">0.002902</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data"><a href="act24_Ciev_home.html">act24_Ciev_home</a></td>
+<td class="r data">0.003350</td>
+<td class="r data">0.003448</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">51</th>
+<td class="l data"><a href="act30_Ciev_family.html">act30_Ciev_family</a></td>
+<td class="r data">0.003406</td>
+<td class="r data">0.002958</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">52</th>
+<td class="l data"><a href="act9_Ciev_health.html">act9_Ciev_health</a></td>
+<td class="r data">0.003406</td>
+<td class="r data">0.003580</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">53</th>
+<td class="l data"><a href="act36_Ciev_work.html">act36_Ciev_work</a></td>
+<td class="r data">0.003482</td>
+<td class="r data">0.002940</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">54</th>
+<td class="l data"><a href="agr21_Pctl5_CMin_Due.html">agr21_Pctl5_CMin_Due</a></td>
+<td class="r data">0.003516</td>
+<td class="r data">0.003342</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">55</th>
+<td class="l data"><a href="act33_Ciev_family.html">act33_Ciev_family</a></td>
+<td class="r data">0.003539</td>
+<td class="r data">0.003034</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">56</th>
+<td class="l data"><a href="act36_Ciev_home.html">act36_Ciev_home</a></td>
+<td class="r data">0.003671</td>
+<td class="r data">0.003787</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">57</th>
+<td class="l data"><a href="act36_Ciev_family.html">act36_Ciev_family</a></td>
+<td class="r data">0.003785</td>
+<td class="r data">0.003316</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">58</th>
+<td class="l data"><a href="act30_Cncr_taken.html">act30_Cncr_taken</a></td>
+<td class="r data">0.003823</td>
+<td class="r data">0.004522</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">59</th>
+<td class="l data"><a href="act21_Ciev_family.html">act21_Ciev_family</a></td>
+<td class="r data">0.003974</td>
+<td class="r data">0.003693</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">60</th>
+<td class="l data"><a href="ags15_Min_CMin_Due.html">ags15_Min_CMin_Due</a></td>
+<td class="r data">0.003974</td>
+<td class="r data">0.003882</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">61</th>
+<td class="l data"><a href="ags15_Pctl5_CMin_Due.html">ags15_Pctl5_CMin_Due</a></td>
+<td class="r data">0.003974</td>
+<td class="r data">0.003882</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">62</th>
+<td class="l data"><a href="act15_Ciev_work.html">act15_Ciev_work</a></td>
+<td class="r data">0.004145</td>
+<td class="r data">0.003957</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">63</th>
+<td class="l data"><a href="agr18_Pctl5_CMin_Due.html">agr18_Pctl5_CMin_Due</a></td>
+<td class="r data">0.004162</td>
+<td class="r data">0.003736</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">64</th>
+<td class="l data"><a href="agr18_Min_CMin_Due.html">agr18_Min_CMin_Due</a></td>
+<td class="r data">0.004162</td>
+<td class="r data">0.003736</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">65</th>
+<td class="l data"><a href="act33_Cncr_taken.html">act33_Cncr_taken</a></td>
+<td class="r data">0.004391</td>
+<td class="r data">0.005276</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">66</th>
+<td class="l data"><a href="act18_Ciev_family.html">act18_Ciev_family</a></td>
+<td class="r data">0.004901</td>
+<td class="r data">0.004654</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">67</th>
+<td class="l data"><a href="act21_Ciev_home.html">act21_Ciev_home</a></td>
+<td class="r data">0.004920</td>
+<td class="r data">0.004975</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">68</th>
+<td class="l data"><a href="act36_Cncr_taken.html">act36_Cncr_taken</a></td>
+<td class="r data">0.005034</td>
+<td class="r data">0.005125</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">69</th>
+<td class="l data"><a href="act27_Cncr_taken.html">act27_Cncr_taken</a></td>
+<td class="r data">0.005204</td>
+<td class="r data">0.005144</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">70</th>
+<td class="l data"><a href="act12_Ciev_work.html">act12_Ciev_work</a></td>
+<td class="r data">0.006169</td>
+<td class="r data">0.005295</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">71</th>
+<td class="l data"><a href="act6_Ciev_health.html">act6_Ciev_health</a></td>
+<td class="r data">0.006661</td>
+<td class="r data">0.007575</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">72</th>
+<td class="l data"><a href="act15_Ciev_family.html">act15_Ciev_family</a></td>
+<td class="r data">0.006889</td>
+<td class="r data">0.006463</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">73</th>
+<td class="l data"><a href="act18_Ciev_home.html">act18_Ciev_home</a></td>
+<td class="r data">0.006983</td>
+<td class="r data">0.007255</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">74</th>
+<td class="l data"><a href="agr21_Min_CMax_Due.html">agr21_Min_CMax_Due</a></td>
+<td class="r data">0.008054</td>
+<td class="r data">0.009022</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">75</th>
+<td class="l data"><a href="agr24_Min_CMax_Due.html">agr24_Min_CMax_Due</a></td>
+<td class="r data">0.008576</td>
+<td class="r data">0.007979</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">76</th>
+<td class="l data"><a href="act9_Ciev_work.html">act9_Ciev_work</a></td>
+<td class="r data">0.009008</td>
+<td class="r data">0.008310</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">77</th>
+<td class="l data"><a href="act15_Ciev_home.html">act15_Ciev_home</a></td>
+<td class="r data">0.009178</td>
+<td class="r data">0.009780</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">78</th>
+<td class="l data"><a href="act12_Ciev_family.html">act12_Ciev_family</a></td>
+<td class="r data">0.009746</td>
+<td class="r data">0.008461</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">79</th>
+<td class="l data"><a href="act27_Ciev_all.html">act27_Ciev_all</a></td>
+<td class="r data">0.010087</td>
+<td class="r data">0.009742</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">80</th>
+<td class="l data"><a href="act24_Ciev_all.html">act24_Ciev_all</a></td>
+<td class="r data">0.010314</td>
+<td class="r data">0.010081</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">81</th>
+<td class="l data"><a href="agr27_Pctl25_CMin_Due.html">agr27_Pctl25_CMin_Due</a></td>
+<td class="r data">0.010493</td>
+<td class="r data">0.012419</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">82</th>
+<td class="l data"><a href="ags12_Pctl5_CMin_Due.html">ags12_Pctl5_CMin_Due</a></td>
+<td class="r data">0.010674</td>
+<td class="r data">0.011457</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">83</th>
+<td class="l data"><a href="ags12_Min_CMin_Due.html">ags12_Min_CMin_Due</a></td>
+<td class="r data">0.010674</td>
+<td class="r data">0.011457</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">84</th>
+<td class="l data"><a href="agr15_Pctl5_CMin_Due.html">agr15_Pctl5_CMin_Due</a></td>
+<td class="r data">0.010719</td>
+<td class="r data">0.010351</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">85</th>
+<td class="l data"><a href="agr15_Min_CMin_Due.html">agr15_Min_CMin_Due</a></td>
+<td class="r data">0.010719</td>
+<td class="r data">0.010351</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">86</th>
+<td class="l data"><a href="act30_Ciev_all.html">act30_Ciev_all</a></td>
+<td class="r data">0.010882</td>
+<td class="r data">0.010948</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">87</th>
+<td class="l data"><a href="agr33_Pctl25_CMin_Due.html">agr33_Pctl25_CMin_Due</a></td>
+<td class="r data">0.011046</td>
+<td class="r data">0.007692</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">88</th>
+<td class="l data"><a href="act3_Ciev_health.html">act3_Ciev_health</a></td>
+<td class="r data">0.011412</td>
+<td class="r data">0.012568</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">89</th>
+<td class="l data"><a href="act33_Ciev_all.html">act33_Ciev_all</a></td>
+<td class="r data">0.011695</td>
+<td class="r data">0.011344</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">90</th>
+<td class="l data"><a href="agr36_Min_CMax_Due.html">agr36_Min_CMax_Due</a></td>
+<td class="r data">0.012111</td>
+<td class="r data">0.005757</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">91</th>
+<td class="l data"><a href="act21_Ciev_all.html">act21_Ciev_all</a></td>
+<td class="r data">0.012396</td>
+<td class="r data">0.012361</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">92</th>
+<td class="l data"><a href="act12_Ciev_home.html">act12_Ciev_home</a></td>
+<td class="r data">0.012396</td>
+<td class="r data">0.012719</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">93</th>
+<td class="l data"><a href="act9_Ciev_family.html">act9_Ciev_family</a></td>
+<td class="r data">0.012982</td>
+<td class="r data">0.011909</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">94</th>
+<td class="l data"><a href="act36_Ciev_all.html">act36_Ciev_all</a></td>
+<td class="r data">0.013020</td>
+<td class="r data">0.012229</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">95</th>
+<td class="l data"><a href="agr30_Pctl25_CMin_Due.html">agr30_Pctl25_CMin_Due</a></td>
+<td class="r data">0.013208</td>
+<td class="r data">0.011296</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">96</th>
+<td class="l data"><a href="agr30_Min_CMax_Due.html">agr30_Min_CMax_Due</a></td>
+<td class="r data">0.013208</td>
+<td class="r data">0.008323</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">97</th>
+<td class="l data"><a href="act6_Ciev_work.html">act6_Ciev_work</a></td>
+<td class="r data">0.013228</td>
+<td class="r data">0.012248</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">98</th>
+<td class="l data"><a href="agr27_Min_CMax_Due.html">agr27_Min_CMax_Due</a></td>
+<td class="r data">0.013641</td>
+<td class="r data">0.010432</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">99</th>
+<td class="l data"><a href="agr33_Min_CMax_Due.html">agr33_Min_CMax_Due</a></td>
+<td class="r data">0.013991</td>
+<td class="r data">0.006294</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">100</th>
+<td class="l data"><a href="ags6_Std_Cncr.html">ags6_Std_Cncr</a></td>
+<td class="r data">0.014918</td>
+<td class="r data">0.006116</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">101</th>
+<td class="l data"><a href="act9_Ciev_home.html">act9_Ciev_home</a></td>
+<td class="r data">0.015821</td>
+<td class="r data">0.016507</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">102</th>
+<td class="l data"><a href="act18_Ciev_all.html">act18_Ciev_all</a></td>
+<td class="r data">0.015954</td>
+<td class="r data">0.015696</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">103</th>
+<td class="l data"><a href="act6_Ciev_family.html">act6_Ciev_family</a></td>
+<td class="r data">0.016881</td>
+<td class="r data">0.016017</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">104</th>
+<td class="l data"><a href="act3_Ciev_work.html">act3_Ciev_work</a></td>
+<td class="r data">0.018603</td>
+<td class="r data">0.016620</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">105</th>
+<td class="l data"><a href="act6_Ciev_home.html">act6_Ciev_home</a></td>
+<td class="r data">0.019947</td>
+<td class="r data">0.020690</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">106</th>
+<td class="l data"><a href="agr36_Pctl5_CMax_Due.html">agr36_Pctl5_CMax_Due</a></td>
+<td class="r data">0.020761</td>
+<td class="r data">0.013980</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">107</th>
+<td class="l data"><a href="act15_Ciev_all.html">act15_Ciev_all</a></td>
+<td class="r data">0.021139</td>
+<td class="r data">0.021029</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">108</th>
+<td class="l data"><a href="act3_Ciev_family.html">act3_Ciev_family</a></td>
+<td class="r data">0.021290</td>
+<td class="r data">0.020803</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">109</th>
+<td class="l data"><a href="agr12_Pctl5_CMin_Due.html">agr12_Pctl5_CMin_Due</a></td>
+<td class="r data">0.021800</td>
+<td class="r data">0.023222</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">110</th>
+<td class="l data"><a href="agr12_Min_CMin_Due.html">agr12_Min_CMin_Due</a></td>
+<td class="r data">0.021800</td>
+<td class="r data">0.023222</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">111</th>
+<td class="l data"><a href="agr33_Pctl5_CMax_Due.html">agr33_Pctl5_CMax_Due</a></td>
+<td class="r data">0.022091</td>
+<td class="r data">0.013986</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">112</th>
+<td class="l data"><a href="act3_Ciev_home.html">act3_Ciev_home</a></td>
+<td class="r data">0.024470</td>
+<td class="r data">0.024910</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">113</th>
+<td class="l data"><a href="agr30_Pctl5_CMax_Due.html">agr30_Pctl5_CMax_Due</a></td>
+<td class="r data">0.024528</td>
+<td class="r data">0.017836</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">114</th>
+<td class="l data"><a href="act12_Ciev_all.html">act12_Ciev_all</a></td>
+<td class="r data">0.029485</td>
+<td class="r data">0.027567</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">115</th>
+<td class="l data"><a href="agr21_Pctl25_CMin_Due.html">agr21_Pctl25_CMin_Due</a></td>
+<td class="r data">0.030059</td>
+<td class="r data">0.034306</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">116</th>
+<td class="l data"><a href="act24_Cncr_taken.html">act24_Cncr_taken</a></td>
+<td class="r data">0.030071</td>
+<td class="r data">0.030111</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">117</th>
+<td class="l data"><a href="act21_Cncr_taken.html">act21_Cncr_taken</a></td>
+<td class="r data">0.033175</td>
+<td class="r data">0.033597</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">118</th>
+<td class="l data"><a href="act18_Cncr_taken.html">act18_Cncr_taken</a></td>
+<td class="r data">0.037055</td>
+<td class="r data">0.038214</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">119</th>
+<td class="l data"><a href="act15_Cncr_taken.html">act15_Cncr_taken</a></td>
+<td class="r data">0.040385</td>
+<td class="r data">0.039796</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">120</th>
+<td class="l data"><a href="agr18_Pctl25_CMin_Due.html">agr18_Pctl25_CMin_Due</a></td>
+<td class="r data">0.040402</td>
+<td class="r data">0.042228</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">121</th>
+<td class="l data"><a href="act9_Ciev_all.html">act9_Ciev_all</a></td>
+<td class="r data">0.040461</td>
+<td class="r data">0.039608</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">122</th>
+<td class="l data"><a href="act24_n_cind_arrears.html">act24_n_cind_arrears</a></td>
+<td class="r data">0.040745</td>
+<td class="r data">0.041756</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">123</th>
+<td class="l data"><a href="act27_n_cind_arrears.html">act27_n_cind_arrears</a></td>
+<td class="r data">0.043092</td>
+<td class="r data">0.043942</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">124</th>
+<td class="l data"><a href="act12_Cncr_taken.html">act12_Cncr_taken</a></td>
+<td class="r data">0.043981</td>
+<td class="r data">0.044922</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">125</th>
+<td class="l data"><a href="act30_n_cind_arrears.html">act30_n_cind_arrears</a></td>
+<td class="r data">0.045703</td>
+<td class="r data">0.045920</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">126</th>
+<td class="l data"><a href="act33_n_cind_arrears.html">act33_n_cind_arrears</a></td>
+<td class="r data">0.047198</td>
+<td class="r data">0.046750</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">127</th>
+<td class="l data"><a href="act21_n_cind_arrears.html">act21_n_cind_arrears</a></td>
+<td class="r data">0.047652</td>
+<td class="r data">0.046561</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">128</th>
+<td class="l data"><a href="act36_n_cind_arrears.html">act36_n_cind_arrears</a></td>
+<td class="r data">0.047974</td>
+<td class="r data">0.048351</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">129</th>
+<td class="l data"><a href="act9_Cncr_taken.html">act9_Cncr_taken</a></td>
+<td class="r data">0.048315</td>
+<td class="r data">0.048276</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">130</th>
+<td class="l data"><a href="agr15_Pctl25_CMin_Due.html">agr15_Pctl25_CMin_Due</a></td>
+<td class="r data">0.049663</td>
+<td class="r data">0.053412</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX2"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status34.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>

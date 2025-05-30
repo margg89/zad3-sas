@@ -1,0 +1,3221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta name="Generator" content="SAS Software Version 9.4, see www.sas.com">
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<title>SAS Output</title>
+<style type="text/css">
+<!--
+.activelink
+{
+  color: #800080;
+}
+.aftercaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  padding-top: 4pt;
+}
+.batch
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: 'SAS Monospace', 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  padding: 7px;
+}
+.beforecaption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.body
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.bodydate
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: right;
+  vertical-align: top;
+  width: 100%;
+}
+.bycontentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.byline
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.bylinecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.caption
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.cell
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.container
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.contentfolder
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.contentproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contentprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.contents
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.contentsdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.contenttitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.continued
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  width: 100%;
+}
+.data
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasis
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.dataemphasisfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.dataempty
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datafixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.datastrong
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.datastrongfixed
+{
+  background-color: #FFFFFF;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.date
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.document
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+a:link {
+color:#0000FF
+}
+a:visited {
+color:#800080
+}
+a:active {
+color:#800080
+}
+.errorbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.errorcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.errorcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.extendedpage
+{
+  background-color: #FAFBFE;
+  border: 1pt solid #000000;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+  text-align: center;
+}
+.fatalbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.fatalcontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.fatalcontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.folderaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.footer
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footeremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footeremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.footerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.footerstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.footerstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.frame
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.graph
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.header
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headeremphasis
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headeremphasisfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.headerempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.headersandfooters
+{
+  background-color: #EDF2F9;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrong
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.headerstrongfixed
+{
+  background-color: #D8DBD3;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.heading1
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading2
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading3
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading4
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading5
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.heading6
+{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.index
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.indexaction
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.indexprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.indextitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.layoutcontainer
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.layoutregion
+{
+  border: 0px solid #000000;
+  border-spacing: 30px;
+}
+.linecontent
+{
+  background-color: #FAFBFE;
+  border-bottom-width: 1px;
+  border-color: #C1C1C1;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.link
+{
+  color: #0000FF;
+}
+.list
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.list10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.list3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.list9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: disc;
+}
+.listitem10
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem2
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: circle;
+}
+.listitem3
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem4
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem5
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem6
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem7
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem8
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.listitem9
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: square;
+}
+.note
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notebanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.notecontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.notecontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.output
+{
+  background-color: #FAFBFE;
+  border: 1px solid #C1C1C1;
+  border-collapse: separate;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.pageno
+{
+  background-color: #FAFBFE;
+  border-spacing: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+  text-align: right;
+  vertical-align: top;
+}
+.pages
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: decimal;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+.pagesdate
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.pagesitem
+{
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  list-style-type: none;
+  margin-left: 6pt;
+}
+.pagesproclabel
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagesprocname
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.pagestitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: bold;
+}
+.paragraph
+{
+  background-color: #FAFBFE;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.parskip
+{
+  border: 0px solid #000000;
+  border-spacing: 0px;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.prepage
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+}
+.proctitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.proctitlefixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooter
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooteremphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooteremphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowfooterempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowfooterstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowfooterstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheader
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderemphasis
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderemphasisfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: italic;
+  font-weight: normal;
+}
+.rowheaderempty
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.rowheaderstrong
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.rowheaderstrongfixed
+{
+  background-color: #EDF2F9;
+  border-bottom-width: 1px;
+  border-color: #B0B7BB;
+  border-left-width: 0px;
+  border-right-width: 1px;
+  border-style: solid;
+  border-top-width: 0px;
+  color: #112277;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemfooter
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemfooter9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.systemtitle
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle10
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle2
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle3
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle4
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle5
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle6
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle7
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle8
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systemtitle9
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: small;
+  font-style: normal;
+  font-weight: bold;
+}
+.systitleandfootercontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.table
+{
+  border-bottom-width: 0px;
+  border-collapse: collapse;
+  border-color: #C1C1C1;
+  border-left-width: 1px;
+  border-right-width: 0px;
+  border-spacing: 0px;
+  border-style: solid;
+  border-top-width: 1px;
+}
+.top_stacked_value
+{
+  padding-bottom: 1px;
+  border: 0;
+}
+.middle_stacked_value
+{
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border: 0;
+}
+.bottom_stacked_value
+{
+  padding-top: 1px;
+  border: 0;
+}
+.titleandnotecontainer
+{
+  background-color: #FAFBFE;
+  border: 0px solid #000000;
+  border-spacing: 1px;
+  color: #000000;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+  width: 100%;
+}
+.titlesandfooters
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.usertext
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.visitedlink
+{
+  color: #800080;
+}
+.warnbanner
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: bold;
+}
+.warncontent
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: Arial, 'Albany AMT', Helvetica, Helv;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.warncontentfixed
+{
+  background-color: #FAFBFE;
+  color: #112277;
+  font-family: 'Courier New', Courier;
+  font-size: x-small;
+  font-style: normal;
+  font-weight: normal;
+}
+.l {text-align: left }
+.c {text-align: center }
+.r {text-align: right }
+.d {text-align: right }
+.j {text-align: justify }
+.t {vertical-align: top }
+.m {vertical-align: middle }
+.b {vertical-align: bottom }
+TD, TH {vertical-align: top }
+.stacked_cell{padding: 0 }
+-->
+</style>
+</head>
+<body class="body">
+
+<div class="branch">
+<a name="IDX"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">act: Najmniej stabilne zmienne</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Zbi r WORK.RAPORT_Z_KAT_SORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">Zmienna</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="r header" scope="col">Warto   PSI</th>
+<th class="r header" scope="col">% Outliers<br/>(Train)</th>
+<th class="r header" scope="col">Udzial 1 (Train)</th>
+<th class="r header" scope="col">Udzial 1 (Valid)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data"><a href="act_state_9_CMax_Days.html">act_state_9_CMax_Days</a></td>
+<td class="l data">act_state_9_CMax_Days</td>
+<td class="r data">0.0434</td>
+<td class="r data">44.05</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data"><a href="act_state_11_CMax_Days.html">act_state_11_CMax_Days</a></td>
+<td class="l data">act_state_11_CMax_Days</td>
+<td class="r data">0.0383</td>
+<td class="r data">51.61</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data"><a href="act_cus_pins.html">act_cus_pins</a></td>
+<td class="l data">act_cus_pins</td>
+<td class="r data">0.0332</td>
+<td class="r data">0.35</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data"><a href="act_cus_utl.html">act_cus_utl</a></td>
+<td class="l data">act_cus_utl</td>
+<td class="r data">0.0272</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data"><a href="act_cus_seniority.html">act_cus_seniority</a></td>
+<td class="l data">act_cus_seniority</td>
+<td class="r data">0.0133</td>
+<td class="r data">2.09</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data"><a href="act_age.html">act_age</a></td>
+<td class="l data">act_age</td>
+<td class="r data">0.0100</td>
+<td class="r data">0.51</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data"><a href="act_state_32_CMin_Days.html">act_state_32_CMin_Days</a></td>
+<td class="l data">act_state_32_CMin_Days</td>
+<td class="r data">0.0048</td>
+<td class="r data">91.87</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data"><a href="act_state_25_CMax_Days.html">act_state_25_CMax_Days</a></td>
+<td class="l data">act_state_25_CMax_Days</td>
+<td class="r data">0.0041</td>
+<td class="r data">91.78</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data"><a href="act_state_35_CMax_Due.html">act_state_35_CMax_Due</a></td>
+<td class="l data">act_state_35_CMax_Due</td>
+<td class="r data">0.0037</td>
+<td class="r data">91.17</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data"><a href="act_state_34_CMax_Due.html">act_state_34_CMax_Due</a></td>
+<td class="l data">act_state_34_CMax_Due</td>
+<td class="r data">0.0035</td>
+<td class="r data">91.36</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data"><a href="act_state_36_CMax_Due.html">act_state_36_CMax_Due</a></td>
+<td class="l data">act_state_36_CMax_Due</td>
+<td class="r data">0.0029</td>
+<td class="r data">91.06</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data"><a href="act_state_28_CMin_Due.html">act_state_28_CMin_Due</a></td>
+<td class="l data">act_state_28_CMin_Due</td>
+<td class="r data">0.0018</td>
+<td class="r data">91.68</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data"><a href="act_state_18_CMax_Days.html">act_state_18_CMax_Days</a></td>
+<td class="l data">act_state_18_CMax_Days</td>
+<td class="r data">0.0007</td>
+<td class="r data">74.31</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data"><a href="act_state_18_CMin_Days.html">act_state_18_CMin_Days</a></td>
+<td class="l data">act_state_18_CMin_Days</td>
+<td class="r data">0.0007</td>
+<td class="r data">74.38</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data"><a href="act_state_9_CMin_Days.html">act_state_9_CMin_Days</a></td>
+<td class="l data">act_state_9_CMin_Days</td>
+<td class="r data">0.0007</td>
+<td class="r data">42.70</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data"><a href="act_state_2_CMax_Days.html">act_state_2_CMax_Days</a></td>
+<td class="l data">act_state_2_CMax_Days</td>
+<td class="r data">0.0007</td>
+<td class="r data">16.62</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data"><a href="act_state_22_CMin_Days.html">act_state_22_CMin_Days</a></td>
+<td class="l data">act_state_22_CMin_Days</td>
+<td class="r data">0.0006</td>
+<td class="r data">84.99</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data"><a href="act_state_17_CMax_Days.html">act_state_17_CMax_Days</a></td>
+<td class="l data">act_state_17_CMax_Days</td>
+<td class="r data">0.0006</td>
+<td class="r data">71.57</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data"><a href="act_state_2_CMin_Days.html">act_state_2_CMin_Days</a></td>
+<td class="l data">act_state_2_CMin_Days</td>
+<td class="r data">0.0006</td>
+<td class="r data">16.62</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data"><a href="act_state_7_CMax_Days.html">act_state_7_CMax_Days</a></td>
+<td class="l data">act_state_7_CMax_Days</td>
+<td class="r data">0.0005</td>
+<td class="r data">34.36</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data"><a href="act_state_22_CMax_Days.html">act_state_22_CMax_Days</a></td>
+<td class="l data">act_state_22_CMax_Days</td>
+<td class="r data">0.0005</td>
+<td class="r data">84.92</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data"><a href="act_state_17_CMin_Days.html">act_state_17_CMin_Days</a></td>
+<td class="l data">act_state_17_CMin_Days</td>
+<td class="r data">0.0005</td>
+<td class="r data">70.84</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data"><a href="act_state_16_CMax_Days.html">act_state_16_CMax_Days</a></td>
+<td class="l data">act_state_16_CMax_Days</td>
+<td class="r data">0.0005</td>
+<td class="r data">68.27</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data"><a href="act_state_7_CMin_Days.html">act_state_7_CMin_Days</a></td>
+<td class="l data">act_state_7_CMin_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">34.38</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data"><a href="act_state_21_CMin_Days.html">act_state_21_CMin_Days</a></td>
+<td class="l data">act_state_21_CMin_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">82.39</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data"><a href="act_state_27_CMax_Days.html">act_state_27_CMax_Days</a></td>
+<td class="l data">act_state_27_CMax_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">92.74</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data"><a href="act_state_17_CMin_Due.html">act_state_17_CMin_Due</a></td>
+<td class="l data">act_state_17_CMin_Due</td>
+<td class="r data">0.0004</td>
+<td class="r data">73.52</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data"><a href="act_state_27_CMin_Days.html">act_state_27_CMin_Days</a></td>
+<td class="l data">act_state_27_CMin_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">92.68</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data"><a href="act_state_16_CMin_Days.html">act_state_16_CMin_Days</a></td>
+<td class="l data">act_state_16_CMin_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">67.60</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data"><a href="act_state_19_CMax_Days.html">act_state_19_CMax_Days</a></td>
+<td class="l data">act_state_19_CMax_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">77.08</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data"><a href="act_state_20_CMin_Days.html">act_state_20_CMin_Days</a></td>
+<td class="l data">act_state_20_CMin_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">79.88</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data"><a href="act_state_16_Cncr.html">act_state_16_Cncr</a></td>
+<td class="l data">act_state_16_Cncr</td>
+<td class="r data">0.0004</td>
+<td class="r data">96.05</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data"><a href="act_state_36_CMin_Days.html">act_state_36_CMin_Days</a></td>
+<td class="l data">act_state_36_CMin_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">91.29</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data"><a href="act_state_31_CMax_Days.html">act_state_31_CMax_Days</a></td>
+<td class="l data">act_state_31_CMax_Days</td>
+<td class="r data">0.0004</td>
+<td class="r data">92.19</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data"><a href="act_state_27_CMin_Due.html">act_state_27_CMin_Due</a></td>
+<td class="l data">act_state_27_CMin_Due</td>
+<td class="r data">0.0004</td>
+<td class="r data">91.84</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data"><a href="act_state_31_CMin_Days.html">act_state_31_CMin_Days</a></td>
+<td class="l data">act_state_31_CMin_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">92.10</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data"><a href="act_state_19_CMin_Days.html">act_state_19_CMin_Days</a></td>
+<td class="l data">act_state_19_CMin_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">77.15</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data"><a href="act_state_25_CMin_Days.html">act_state_25_CMin_Days</a></td>
+<td class="l data">act_state_25_CMin_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">91.62</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data"><a href="act_state_3_CMax_Days.html">act_state_3_CMax_Days</a></td>
+<td class="l data">act_state_3_CMax_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">19.22</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data"><a href="act_state_26_CMax_Days.html">act_state_26_CMax_Days</a></td>
+<td class="l data">act_state_26_CMax_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">92.58</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data"><a href="act_state_8_CMin_Days.html">act_state_8_CMin_Days</a></td>
+<td class="l data">act_state_8_CMin_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">38.56</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data"><a href="act_state_12_CMax_Days.html">act_state_12_CMax_Days</a></td>
+<td class="l data">act_state_12_CMax_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">55.10</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data"><a href="act_state_20_CMax_Days.html">act_state_20_CMax_Days</a></td>
+<td class="l data">act_state_20_CMax_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">79.83</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data"><a href="act_state_31_CMax_Due.html">act_state_31_CMax_Due</a></td>
+<td class="l data">act_state_31_CMax_Due</td>
+<td class="r data">0.0003</td>
+<td class="r data">91.87</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data"><a href="act_state_10_Cncr.html">act_state_10_Cncr</a></td>
+<td class="l data">act_state_10_Cncr</td>
+<td class="r data">0.0003</td>
+<td class="r data">.</td>
+<td class="r data">1.00</td>
+<td class="r data">1.00</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data"><a href="act_state_26_CMax_Due.html">act_state_26_CMax_Due</a></td>
+<td class="l data">act_state_26_CMax_Due</td>
+<td class="r data">0.0003</td>
+<td class="r data">92.36</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data"><a href="act_state_29_CMin_Due.html">act_state_29_CMin_Due</a></td>
+<td class="l data">act_state_29_CMin_Due</td>
+<td class="r data">0.0003</td>
+<td class="r data">91.49</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data"><a href="act_state_35_CMax_Days.html">act_state_35_CMax_Days</a></td>
+<td class="l data">act_state_35_CMax_Days</td>
+<td class="r data">0.0003</td>
+<td class="r data">91.53</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data"><a href="act_state_25_CMax_Due.html">act_state_25_CMax_Due</a></td>
+<td class="l data">act_state_25_CMax_Due</td>
+<td class="r data">0.0003</td>
+<td class="r data">91.52</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data"><a href="act_state_20_CMin_Due.html">act_state_20_CMin_Due</a></td>
+<td class="l data">act_state_20_CMin_Due</td>
+<td class="r data">0.0003</td>
+<td class="r data">81.19</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX1"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status27.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX2"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">agr: Najmniej stabilne zmienne</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Zbi r WORK.RAPORT_Z_KAT_SORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">Zmienna</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="r header" scope="col">Warto   PSI</th>
+<th class="r header" scope="col">% Outliers<br/>(Train)</th>
+<th class="r header" scope="col">Udzial 1 (Train)</th>
+<th class="r header" scope="col">Udzial 1 (Valid)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data"><a href="agr3_Std_CMax_Days.html">agr3_Std_CMax_Days</a></td>
+<td class="l data">agr3_Std_CMax_Days</td>
+<td class="r data">0.4090</td>
+<td class="r data">37.80</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data"><a href="agr6_Mean_CMax_Due.html">agr6_Mean_CMax_Due</a></td>
+<td class="l data">agr6_Mean_CMax_Due</td>
+<td class="r data">0.1133</td>
+<td class="r data">26.95</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data"><a href="agr6_Sum_CMax_Due.html">agr6_Sum_CMax_Due</a></td>
+<td class="l data">agr6_Sum_CMax_Due</td>
+<td class="r data">0.1133</td>
+<td class="r data">26.11</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data"><a href="agr3_Mean_CMin_Days.html">agr3_Mean_CMin_Days</a></td>
+<td class="l data">agr3_Mean_CMin_Days</td>
+<td class="r data">0.0796</td>
+<td class="r data">37.16</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data"><a href="agr3_Sum_CMin_Days.html">agr3_Sum_CMin_Days</a></td>
+<td class="l data">agr3_Sum_CMin_Days</td>
+<td class="r data">0.0796</td>
+<td class="r data">37.13</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data"><a href="agr9_Pctl75_CMax_Days.html">agr9_Pctl75_CMax_Days</a></td>
+<td class="l data">agr9_Pctl75_CMax_Days</td>
+<td class="r data">0.0729</td>
+<td class="r data">73.97</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data"><a href="agr12_Median_CMin_Days.html">agr12_Median_CMin_Days</a></td>
+<td class="l data">agr12_Median_CMin_Days</td>
+<td class="r data">0.0539</td>
+<td class="r data">83.09</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data"><a href="agr18_Mean_CMax_Due.html">agr18_Mean_CMax_Due</a></td>
+<td class="l data">agr18_Mean_CMax_Due</td>
+<td class="r data">0.0445</td>
+<td class="r data">75.46</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data"><a href="agr18_Sum_CMax_Due.html">agr18_Sum_CMax_Due</a></td>
+<td class="l data">agr18_Sum_CMax_Due</td>
+<td class="r data">0.0445</td>
+<td class="r data">75.46</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data"><a href="agr12_Std_CMin_Due.html">agr12_Std_CMin_Due</a></td>
+<td class="l data">agr12_Std_CMin_Due</td>
+<td class="r data">0.0443</td>
+<td class="r data">51.62</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data"><a href="agr15_Mean_CMin_Due.html">agr15_Mean_CMin_Due</a></td>
+<td class="l data">agr15_Mean_CMin_Due</td>
+<td class="r data">0.0414</td>
+<td class="r data">63.52</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data"><a href="agr15_Sum_CMin_Due.html">agr15_Sum_CMin_Due</a></td>
+<td class="l data">agr15_Sum_CMin_Due</td>
+<td class="r data">0.0414</td>
+<td class="r data">63.52</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data"><a href="agr15_Mean_CMax_Due.html">agr15_Mean_CMax_Due</a></td>
+<td class="l data">agr15_Mean_CMax_Due</td>
+<td class="r data">0.0369</td>
+<td class="r data">64.75</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data"><a href="agr15_Sum_CMax_Due.html">agr15_Sum_CMax_Due</a></td>
+<td class="l data">agr15_Sum_CMax_Due</td>
+<td class="r data">0.0369</td>
+<td class="r data">64.75</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data"><a href="agr18_Mean_CMin_Due.html">agr18_Mean_CMin_Due</a></td>
+<td class="l data">agr18_Mean_CMin_Due</td>
+<td class="r data">0.0309</td>
+<td class="r data">74.38</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data"><a href="agr18_Sum_CMin_Due.html">agr18_Sum_CMin_Due</a></td>
+<td class="l data">agr18_Sum_CMin_Due</td>
+<td class="r data">0.0309</td>
+<td class="r data">74.23</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data"><a href="agr9_Min_CMin_Days.html">agr9_Min_CMin_Days</a></td>
+<td class="l data">agr9_Min_CMin_Days</td>
+<td class="r data">0.0250</td>
+<td class="r data">73.32</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data"><a href="agr9_Pctl5_CMin_Days.html">agr9_Pctl5_CMin_Days</a></td>
+<td class="l data">agr9_Pctl5_CMin_Days</td>
+<td class="r data">0.0250</td>
+<td class="r data">73.32</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data"><a href="agr9_Range_CMax_Days.html">agr9_Range_CMax_Days</a></td>
+<td class="l data">agr9_Range_CMax_Days</td>
+<td class="r data">0.0179</td>
+<td class="r data">74.27</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data"><a href="agr18_Pctl25_CMax_Days.html">agr18_Pctl25_CMax_Days</a></td>
+<td class="l data">agr18_Pctl25_CMax_Days</td>
+<td class="r data">0.0179</td>
+<td class="r data">94.02</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data"><a href="agr21_Mean_CMin_Due.html">agr21_Mean_CMin_Due</a></td>
+<td class="l data">agr21_Mean_CMin_Due</td>
+<td class="r data">0.0179</td>
+<td class="r data">83.83</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data"><a href="agr21_Sum_CMin_Due.html">agr21_Sum_CMin_Due</a></td>
+<td class="l data">agr21_Sum_CMin_Due</td>
+<td class="r data">0.0179</td>
+<td class="r data">83.83</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data"><a href="agr9_Min_CMax_Days.html">agr9_Min_CMax_Days</a></td>
+<td class="l data">agr9_Min_CMax_Days</td>
+<td class="r data">0.0177</td>
+<td class="r data">74.23</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data"><a href="agr9_Pctl5_CMax_Days.html">agr9_Pctl5_CMax_Days</a></td>
+<td class="l data">agr9_Pctl5_CMax_Days</td>
+<td class="r data">0.0177</td>
+<td class="r data">74.23</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data"><a href="agr12_Kurtosis_CMin_Due.html">agr12_Kurtosis_CMin_Due</a></td>
+<td class="l data">agr12_Kurtosis_CMin_Due</td>
+<td class="r data">0.0126</td>
+<td class="r data">71.87</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data"><a href="agr12_Pctl75_CMax_Days.html">agr12_Pctl75_CMax_Days</a></td>
+<td class="l data">agr12_Pctl75_CMax_Days</td>
+<td class="r data">0.0120</td>
+<td class="r data">82.90</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data"><a href="agr15_Skewness_CMax_Due.html">agr15_Skewness_CMax_Due</a></td>
+<td class="l data">agr15_Skewness_CMax_Due</td>
+<td class="r data">0.0111</td>
+<td class="r data">71.33</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data"><a href="agr12_Mean_CMax_Days.html">agr12_Mean_CMax_Days</a></td>
+<td class="l data">agr12_Mean_CMax_Days</td>
+<td class="r data">0.0092</td>
+<td class="r data">83.03</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data"><a href="agr12_Sum_CMax_Days.html">agr12_Sum_CMax_Days</a></td>
+<td class="l data">agr12_Sum_CMax_Days</td>
+<td class="r data">0.0092</td>
+<td class="r data">83.03</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data"><a href="agr21_Std_CMin_Due.html">agr21_Std_CMin_Due</a></td>
+<td class="l data">agr21_Std_CMin_Due</td>
+<td class="r data">0.0081</td>
+<td class="r data">83.92</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data"><a href="agr15_Std_CMin_Due.html">agr15_Std_CMin_Due</a></td>
+<td class="l data">agr15_Std_CMin_Due</td>
+<td class="r data">0.0075</td>
+<td class="r data">63.30</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data"><a href="agr21_Pctl75_CMin_Days.html">agr21_Pctl75_CMin_Days</a></td>
+<td class="l data">agr21_Pctl75_CMin_Days</td>
+<td class="r data">0.0070</td>
+<td class="r data">97.95</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data"><a href="agr15_Mean_CMin_Days.html">agr15_Mean_CMin_Days</a></td>
+<td class="l data">agr15_Mean_CMin_Days</td>
+<td class="r data">0.0070</td>
+<td class="r data">89.54</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data"><a href="agr15_Sum_CMin_Days.html">agr15_Sum_CMin_Days</a></td>
+<td class="l data">agr15_Sum_CMin_Days</td>
+<td class="r data">0.0070</td>
+<td class="r data">89.54</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data"><a href="agr9_Kurtosis_CMin_Due.html">agr9_Kurtosis_CMin_Due</a></td>
+<td class="l data">agr9_Kurtosis_CMin_Due</td>
+<td class="r data">0.0067</td>
+<td class="r data">62.14</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data"><a href="agr15_Std_CMax_Due.html">agr15_Std_CMax_Due</a></td>
+<td class="l data">agr15_Std_CMax_Due</td>
+<td class="r data">0.0065</td>
+<td class="r data">64.94</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data"><a href="agr33_Pctl95_CMax_Due.html">agr33_Pctl95_CMax_Due</a></td>
+<td class="l data">agr33_Pctl95_CMax_Due</td>
+<td class="r data">0.0060</td>
+<td class="r data">97.43</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data"><a href="agr12_Mean_CMin_Days.html">agr12_Mean_CMin_Days</a></td>
+<td class="l data">agr12_Mean_CMin_Days</td>
+<td class="r data">0.0059</td>
+<td class="r data">83.05</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data"><a href="agr12_Sum_CMin_Days.html">agr12_Sum_CMin_Days</a></td>
+<td class="l data">agr12_Sum_CMin_Days</td>
+<td class="r data">0.0059</td>
+<td class="r data">83.05</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data"><a href="agr9_Skewness_CMax_Due.html">agr9_Skewness_CMax_Due</a></td>
+<td class="l data">agr9_Skewness_CMax_Due</td>
+<td class="r data">0.0054</td>
+<td class="r data">61.02</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data"><a href="agr36_Max_CMax_Due.html">agr36_Max_CMax_Due</a></td>
+<td class="l data">agr36_Max_CMax_Due</td>
+<td class="r data">0.0049</td>
+<td class="r data">97.81</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data"><a href="agr9_Mean_CMin_Days.html">agr9_Mean_CMin_Days</a></td>
+<td class="l data">agr9_Mean_CMin_Days</td>
+<td class="r data">0.0048</td>
+<td class="r data">73.65</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data"><a href="agr9_Sum_CMin_Days.html">agr9_Sum_CMin_Days</a></td>
+<td class="l data">agr9_Sum_CMin_Days</td>
+<td class="r data">0.0048</td>
+<td class="r data">73.65</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data"><a href="agr15_Mean_CMax_Days.html">agr15_Mean_CMax_Days</a></td>
+<td class="l data">agr15_Mean_CMax_Days</td>
+<td class="r data">0.0046</td>
+<td class="r data">89.45</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data"><a href="agr15_Sum_CMax_Days.html">agr15_Sum_CMax_Days</a></td>
+<td class="l data">agr15_Sum_CMax_Days</td>
+<td class="r data">0.0046</td>
+<td class="r data">89.45</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data"><a href="agr15_Kurtosis_CMin_Due.html">agr15_Kurtosis_CMin_Due</a></td>
+<td class="l data">agr15_Kurtosis_CMin_Due</td>
+<td class="r data">0.0043</td>
+<td class="r data">76.13</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data"><a href="agr36_Range_CMax_Due.html">agr36_Range_CMax_Due</a></td>
+<td class="l data">agr36_Range_CMax_Due</td>
+<td class="r data">0.0042</td>
+<td class="r data">97.81</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data"><a href="agr27_Pctl75_CMax_Due.html">agr27_Pctl75_CMax_Due</a></td>
+<td class="l data">agr27_Pctl75_CMax_Due</td>
+<td class="r data">0.0032</td>
+<td class="r data">96.91</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data"><a href="agr27_Mean_CMin_Due.html">agr27_Mean_CMin_Due</a></td>
+<td class="l data">agr27_Mean_CMin_Due</td>
+<td class="r data">0.0030</td>
+<td class="r data">96.59</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data"><a href="agr27_Sum_CMin_Due.html">agr27_Sum_CMin_Due</a></td>
+<td class="l data">agr27_Sum_CMin_Due</td>
+<td class="r data">0.0030</td>
+<td class="r data">96.59</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX3"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status28.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX4"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">ags: Najmniej stabilne zmienne</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Zbi r WORK.RAPORT_Z_KAT_SORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">Zmienna</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="r header" scope="col">Warto   PSI</th>
+<th class="r header" scope="col">% Outliers<br/>(Train)</th>
+<th class="r header" scope="col">Udzial 1 (Train)</th>
+<th class="r header" scope="col">Udzial 1 (Valid)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data"><a href="ags18_Pctl25_CMax_Days.html">ags18_Pctl25_CMax_Days</a></td>
+<td class="l data">ags18_Pctl25_CMax_Days</td>
+<td class="r data">0.6611</td>
+<td class="r data">0.78</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data"><a href="ags9_Iqr_CMax_Days.html">ags9_Iqr_CMax_Days</a></td>
+<td class="l data">ags9_Iqr_CMax_Days</td>
+<td class="r data">0.4605</td>
+<td class="r data">0.85</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data"><a href="ags24_Median_CMin_Days.html">ags24_Median_CMin_Days</a></td>
+<td class="l data">ags24_Median_CMin_Days</td>
+<td class="r data">0.2743</td>
+<td class="r data">3.01</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">4</th>
+<td class="l data"><a href="ags6_Iqr_CMax_Days.html">ags6_Iqr_CMax_Days</a></td>
+<td class="l data">ags6_Iqr_CMax_Days</td>
+<td class="r data">0.1798</td>
+<td class="r data">0.72</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">5</th>
+<td class="l data"><a href="ags12_Pctl25_CMax_Days.html">ags12_Pctl25_CMax_Days</a></td>
+<td class="l data">ags12_Pctl25_CMax_Days</td>
+<td class="r data">0.1203</td>
+<td class="r data">0.91</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">6</th>
+<td class="l data"><a href="ags24_Min_CMax_Days.html">ags24_Min_CMax_Days</a></td>
+<td class="l data">ags24_Min_CMax_Days</td>
+<td class="r data">0.0882</td>
+<td class="r data">1.53</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">7</th>
+<td class="l data"><a href="ags12_Std_CMin_Due.html">ags12_Std_CMin_Due</a></td>
+<td class="l data">ags12_Std_CMin_Due</td>
+<td class="r data">0.0806</td>
+<td class="r data">5.86</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">8</th>
+<td class="l data"><a href="ags33_n_cus_good_days.html">ags33_n_cus_good_days</a></td>
+<td class="l data">ags33_n_cus_good_days</td>
+<td class="r data">0.0792</td>
+<td class="r data">0.17</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">9</th>
+<td class="l data"><a href="ags21_n_cus_good_days.html">ags21_n_cus_good_days</a></td>
+<td class="l data">ags21_n_cus_good_days</td>
+<td class="r data">0.0788</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">10</th>
+<td class="l data"><a href="ags6_Mean_CMin_Due.html">ags6_Mean_CMin_Due</a></td>
+<td class="l data">ags6_Mean_CMin_Due</td>
+<td class="r data">0.0634</td>
+<td class="r data">5.16</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">11</th>
+<td class="l data"><a href="ags3_Mean_CMin_Days.html">ags3_Mean_CMin_Days</a></td>
+<td class="l data">ags3_Mean_CMin_Days</td>
+<td class="r data">0.0593</td>
+<td class="r data">2.35</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">12</th>
+<td class="l data"><a href="ags18_Sum_CMax_Due.html">ags18_Sum_CMax_Due</a></td>
+<td class="l data">ags18_Sum_CMax_Due</td>
+<td class="r data">0.0538</td>
+<td class="r data">7.68</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">13</th>
+<td class="l data"><a href="ags6_Range_CMin_Days.html">ags6_Range_CMin_Days</a></td>
+<td class="l data">ags6_Range_CMin_Days</td>
+<td class="r data">0.0499</td>
+<td class="r data">2.17</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">14</th>
+<td class="l data"><a href="ags36_N_CMax_Days.html">ags36_N_CMax_Days</a></td>
+<td class="l data">ags36_N_CMax_Days</td>
+<td class="r data">0.0378</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">15</th>
+<td class="l data"><a href="ags36_N_CMin_Days.html">ags36_N_CMin_Days</a></td>
+<td class="l data">ags36_N_CMin_Days</td>
+<td class="r data">0.0378</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">16</th>
+<td class="l data"><a href="ags36_Nmiss_CMax_Days.html">ags36_Nmiss_CMax_Days</a></td>
+<td class="l data">ags36_Nmiss_CMax_Days</td>
+<td class="r data">0.0378</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">17</th>
+<td class="l data"><a href="ags36_Nmiss_CMin_Days.html">ags36_Nmiss_CMin_Days</a></td>
+<td class="l data">ags36_Nmiss_CMin_Days</td>
+<td class="r data">0.0378</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">18</th>
+<td class="l data"><a href="ags15_N_CMax_Due.html">ags15_N_CMax_Due</a></td>
+<td class="l data">ags15_N_CMax_Due</td>
+<td class="r data">0.0370</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">19</th>
+<td class="l data"><a href="ags15_N_CMin_Due.html">ags15_N_CMin_Due</a></td>
+<td class="l data">ags15_N_CMin_Due</td>
+<td class="r data">0.0370</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">20</th>
+<td class="l data"><a href="ags15_Nmiss_CMax_Due.html">ags15_Nmiss_CMax_Due</a></td>
+<td class="l data">ags15_Nmiss_CMax_Due</td>
+<td class="r data">0.0370</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">21</th>
+<td class="l data"><a href="ags15_Nmiss_CMin_Due.html">ags15_Nmiss_CMin_Due</a></td>
+<td class="l data">ags15_Nmiss_CMin_Due</td>
+<td class="r data">0.0370</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">22</th>
+<td class="l data"><a href="ags6_Sum_CMin_Due.html">ags6_Sum_CMin_Due</a></td>
+<td class="l data">ags6_Sum_CMin_Due</td>
+<td class="r data">0.0368</td>
+<td class="r data">5.09</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">23</th>
+<td class="l data"><a href="ags18_N_CMax_Due.html">ags18_N_CMax_Due</a></td>
+<td class="l data">ags18_N_CMax_Due</td>
+<td class="r data">0.0342</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">24</th>
+<td class="l data"><a href="ags18_N_CMin_Due.html">ags18_N_CMin_Due</a></td>
+<td class="l data">ags18_N_CMin_Due</td>
+<td class="r data">0.0342</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">25</th>
+<td class="l data"><a href="ags18_Nmiss_CMax_Due.html">ags18_Nmiss_CMax_Due</a></td>
+<td class="l data">ags18_Nmiss_CMax_Due</td>
+<td class="r data">0.0342</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">26</th>
+<td class="l data"><a href="ags18_Nmiss_CMin_Due.html">ags18_Nmiss_CMin_Due</a></td>
+<td class="l data">ags18_Nmiss_CMin_Due</td>
+<td class="r data">0.0342</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">27</th>
+<td class="l data"><a href="ags30_Nmiss_CMax_Days.html">ags30_Nmiss_CMax_Days</a></td>
+<td class="l data">ags30_Nmiss_CMax_Days</td>
+<td class="r data">0.0328</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">28</th>
+<td class="l data"><a href="ags30_Nmiss_CMin_Days.html">ags30_Nmiss_CMin_Days</a></td>
+<td class="l data">ags30_Nmiss_CMin_Days</td>
+<td class="r data">0.0328</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">29</th>
+<td class="l data"><a href="ags30_N_CMax_Days.html">ags30_N_CMax_Days</a></td>
+<td class="l data">ags30_N_CMax_Days</td>
+<td class="r data">0.0328</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">30</th>
+<td class="l data"><a href="ags30_N_CMin_Days.html">ags30_N_CMin_Days</a></td>
+<td class="l data">ags30_N_CMin_Days</td>
+<td class="r data">0.0328</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">31</th>
+<td class="l data"><a href="ags27_N_CMax_Due.html">ags27_N_CMax_Due</a></td>
+<td class="l data">ags27_N_CMax_Due</td>
+<td class="r data">0.0325</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">32</th>
+<td class="l data"><a href="ags27_N_CMin_Due.html">ags27_N_CMin_Due</a></td>
+<td class="l data">ags27_N_CMin_Due</td>
+<td class="r data">0.0325</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">33</th>
+<td class="l data"><a href="ags27_Nmiss_CMax_Due.html">ags27_Nmiss_CMax_Due</a></td>
+<td class="l data">ags27_Nmiss_CMax_Due</td>
+<td class="r data">0.0325</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">34</th>
+<td class="l data"><a href="ags27_Nmiss_CMin_Due.html">ags27_Nmiss_CMin_Due</a></td>
+<td class="l data">ags27_Nmiss_CMin_Due</td>
+<td class="r data">0.0325</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">35</th>
+<td class="l data"><a href="ags36_N_CMax_Due.html">ags36_N_CMax_Due</a></td>
+<td class="l data">ags36_N_CMax_Due</td>
+<td class="r data">0.0319</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">36</th>
+<td class="l data"><a href="ags36_N_CMin_Due.html">ags36_N_CMin_Due</a></td>
+<td class="l data">ags36_N_CMin_Due</td>
+<td class="r data">0.0319</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">37</th>
+<td class="l data"><a href="ags36_Nmiss_CMax_Due.html">ags36_Nmiss_CMax_Due</a></td>
+<td class="l data">ags36_Nmiss_CMax_Due</td>
+<td class="r data">0.0319</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">38</th>
+<td class="l data"><a href="ags36_Nmiss_CMin_Due.html">ags36_Nmiss_CMin_Due</a></td>
+<td class="l data">ags36_Nmiss_CMin_Due</td>
+<td class="r data">0.0319</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">39</th>
+<td class="l data"><a href="ags33_Nmiss_CMax_Days.html">ags33_Nmiss_CMax_Days</a></td>
+<td class="l data">ags33_Nmiss_CMax_Days</td>
+<td class="r data">0.0301</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">40</th>
+<td class="l data"><a href="ags33_Nmiss_CMin_Days.html">ags33_Nmiss_CMin_Days</a></td>
+<td class="l data">ags33_Nmiss_CMin_Days</td>
+<td class="r data">0.0301</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">41</th>
+<td class="l data"><a href="ags33_N_CMax_Days.html">ags33_N_CMax_Days</a></td>
+<td class="l data">ags33_N_CMax_Days</td>
+<td class="r data">0.0301</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">42</th>
+<td class="l data"><a href="ags33_N_CMin_Days.html">ags33_N_CMin_Days</a></td>
+<td class="l data">ags33_N_CMin_Days</td>
+<td class="r data">0.0301</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">43</th>
+<td class="l data"><a href="ags33_Nmiss_CMax_Due.html">ags33_Nmiss_CMax_Due</a></td>
+<td class="l data">ags33_Nmiss_CMax_Due</td>
+<td class="r data">0.0289</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">44</th>
+<td class="l data"><a href="ags33_Nmiss_CMin_Due.html">ags33_Nmiss_CMin_Due</a></td>
+<td class="l data">ags33_Nmiss_CMin_Due</td>
+<td class="r data">0.0289</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">45</th>
+<td class="l data"><a href="ags33_N_CMax_Due.html">ags33_N_CMax_Due</a></td>
+<td class="l data">ags33_N_CMax_Due</td>
+<td class="r data">0.0289</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">46</th>
+<td class="l data"><a href="ags33_N_CMin_Due.html">ags33_N_CMin_Due</a></td>
+<td class="l data">ags33_N_CMin_Due</td>
+<td class="r data">0.0289</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">47</th>
+<td class="l data"><a href="ags33_Min_CMax_Days.html">ags33_Min_CMax_Days</a></td>
+<td class="l data">ags33_Min_CMax_Days</td>
+<td class="r data">0.0249</td>
+<td class="r data">0.04</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">48</th>
+<td class="l data"><a href="ags33_Min_CMin_Days.html">ags33_Min_CMin_Days</a></td>
+<td class="l data">ags33_Min_CMin_Days</td>
+<td class="r data">0.0243</td>
+<td class="r data">0.06</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">49</th>
+<td class="l data"><a href="ags33_Pctl5_CMin_Days.html">ags33_Pctl5_CMin_Days</a></td>
+<td class="l data">ags33_Pctl5_CMin_Days</td>
+<td class="r data">0.0239</td>
+<td class="r data">1.09</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">50</th>
+<td class="l data"><a href="ags30_Range_CMax_Days.html">ags30_Range_CMax_Days</a></td>
+<td class="l data">ags30_Range_CMax_Days</td>
+<td class="r data">0.0238</td>
+<td class="r data">0.72</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX5"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status29.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX6"></a>
+<table class="systitleandfootercontainer" width="100%" cellspacing="1" cellpadding="1" rules="none" frame="void" border="0" summary="Page Layout">
+<tr>
+<td class="c systemtitle">app: Najmniej stabilne zmienne</td>
+</tr>
+</table><br>
+<div>
+<div align="center">
+<table class="table" cellspacing="0" cellpadding="5" rules="all" frame="box" bordercolor="#C1C1C1" summary="Procedure Print: Zbi r WORK.RAPORT_Z_KAT_SORT">
+<colgroup>
+<col>
+</colgroup>
+<colgroup>
+<col>
+<col>
+<col>
+<col>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th class="r header" scope="col">Obs.</th>
+<th class="l header" scope="col">Zmienna</th>
+<th class="l header" scope="col">zmienna</th>
+<th class="r header" scope="col">Warto   PSI</th>
+<th class="r header" scope="col">% Outliers<br/>(Train)</th>
+<th class="r header" scope="col">Udzial 1 (Train)</th>
+<th class="r header" scope="col">Udzial 1 (Valid)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th class="r rowheader" scope="row">1</th>
+<td class="l data"><a href="app_spendings.html">app_spendings</a></td>
+<td class="l data">app_spendings</td>
+<td class="r data">0.0106</td>
+<td class="r data">7.02</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">2</th>
+<td class="l data"><a href="app_number_of_children.html">app_number_of_children</a></td>
+<td class="l data">app_number_of_children</td>
+<td class="r data">0.0000</td>
+<td class="r data">0.00</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+<tr>
+<th class="r rowheader" scope="row">3</th>
+<td class="l data"><a href="app_income.html">app_income</a></td>
+<td class="l data">app_income</td>
+<td class="r data">0.0000</td>
+<td class="r data">5.79</td>
+<td class="r data">.</td>
+<td class="r data">.</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX7"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status30.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX8"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status31.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+<div class="branch">
+<p style="page-break-after: always;"><br/></p><hr size="3"/>
+<a name="IDX9"></a>
+<div>
+<div  class="c">
+<img alt="Procedura SGPLOT" src="app_char_marital_status32.png" style=" height: 600px; width: 800px;" border="0" class="c">
+</div>
+</div>
+<br>
+</div>
+</body>
+</html>
